@@ -4,8 +4,6 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ColorsModule } from './colors/colors.module';
 import { AnimationModule } from './animations/animation.module';
-import { FieldModule } from './fields/field.module';
-import { FrameModule } from './frames/frame.module';
 
 @Module({
   imports: [
@@ -21,8 +19,6 @@ import { FrameModule } from './frames/frame.module';
       autoLoadEntities: true,
       synchronize: true,
     }),
-    FieldModule,
-    FrameModule,
   ],
   controllers: [AppController],
   providers: [AppService],

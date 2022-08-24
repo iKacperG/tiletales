@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import { FieldService } from './field.service';
 
-@Controller('colors')
+@Controller('fields')
 export class FieldController {
   constructor(private readonly fieldsService: FieldService) {}
 

@@ -1,16 +1,13 @@
 import {
-  Body,
   Controller,
   Delete,
   Get,
   Param,
-  Patch,
-  Post,
   Query,
 } from '@nestjs/common';
 import { FrameService } from './frame.service';
 
-@Controller('colors')
+@Controller('frames')
 export class FrameController {
   constructor(private readonly framesService: FrameService) {}
 

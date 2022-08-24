@@ -1,5 +1,4 @@
 import {
-  Body,
   Controller,
   Delete,
   Get,
@@ -10,7 +9,7 @@ import {
 import { AnimationService } from './animation.service';
 import {CreateAnimationDto} from "./dto/create-animation.dto";
 
-@Controller('colors')
+@Controller('animations')
 export class AnimationController {
   constructor(private readonly animationsService: AnimationService) {}
 

@@ -1,7 +1,7 @@
 import { Frame } from '../../frames/entity/frame.entity';
 
 export class CreateAnimationDto {
-  readonly frames: Frame[];
+  frames: Frame[];
 }
 
 export class UpdateAnimationDto {
